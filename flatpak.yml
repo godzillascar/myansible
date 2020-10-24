@@ -2,3 +2,4 @@
   community.general.flatpak:
     name:  https://s3.amazonaws.com/alexlarsson/spotify-repo/spotify.flatpakref
     state: present
+    become: true
