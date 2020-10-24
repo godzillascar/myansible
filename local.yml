@@ -3,3 +3,25 @@
   tasks:
   - name: Install htop
     apt: name=htop
+  
+  - name: Install 
+    apt: name=firefox
+  
+  - name: Install
+    apt: name=deja-dup
+
+  - name: Install 
+    apt: name=firewall-config
+
+  - name: Install 
+    apt: name=gimp
+
+  - name: Install 
+    apt: name=ipscan
+
+  - name: Install 
+    apt: name=mullvad-vpn
+
+  - name: Install 
+    apt:  name=thunderbird
+
